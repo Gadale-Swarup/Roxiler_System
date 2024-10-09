@@ -7,5 +7,6 @@ router.get("/getAllTransactions", transactioncontroller.getAllTransactions);
 router.get("/getStatistics", transactioncontroller.getStatistics);
 router.get("/getBarChartData", transactioncontroller.getBarChartData);
 router.get("/getCategoriesCount", transactioncontroller.getCategoriesCount);
+router.get("/combined", transactioncontroller.combined);
 
 module.exports = router;

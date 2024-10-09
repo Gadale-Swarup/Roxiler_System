@@ -1,0 +1,36 @@
+.barchart-container {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+.chart-title {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+.barchart-wrapper {
+    position: relative;
+    width: 100%;
+    height: 400px;  /* Set the height of the chart for standard viewports */
+    margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+    .barchart-wrapper {
+        height: 300px;  /* Adjust chart height for tablet-sized devices */
+    }
+}
+
+@media (max-width: 768px) {
+    .barchart-wrapper {
+        height: 250px;  /* Further reduce height for mobile devices */
+    }
+}

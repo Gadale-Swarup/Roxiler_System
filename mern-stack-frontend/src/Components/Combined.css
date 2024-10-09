@@ -1,0 +1,39 @@
+.container {
+    background-color: #f8f9fa; /* Light background */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding around the content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1, h2 {
+    color: #343a40; /* Darker heading color */
+}
+
+.table {
+    background-color: #ffffff; /* White table background */
+}
+
+.table th {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text for headers */
+}
+
+.table tr:hover {
+    background-color: #e9ecef; /* Light grey on hover */
+}
+
+.form-control {
+    border-radius: 4px; /* Rounded corners for input */
+}
+
+.form-select {
+    border-radius: 4px; /* Rounded corners for select */
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem; /* Spacing below elements */
+}
+
+.text-center {
+    text-align: center; /* Center text */
+}
