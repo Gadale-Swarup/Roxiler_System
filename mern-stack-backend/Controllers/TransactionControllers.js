@@ -50,21 +50,6 @@ const getAllTransactions = async (req, res) => {
 const getStatistics = async (req, res) => {
   const { month, year } = req.query;
 
-  if (
-    !month ||
-    isNaN(month) ||
-    month < 1 ||
-    month > 12 ||
-    !year ||
-    isNaN(year) ||
-    year < 2000 ||
-    year > new Date().getFullYear()
-  ) {
-    return res
-      .status(400)
-      .json({ message: "Valid month (1-12) and year are required" });
-  }
-
   const startDate = new Date(year, month - 1, 1);
   const endDate = new Date(year, month, 1);
 
